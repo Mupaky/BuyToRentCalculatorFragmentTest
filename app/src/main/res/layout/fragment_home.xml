@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="NestedWeights">
+
+        <TextView
+            android:id="@+id/text_House_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:text="@string/house_price"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/inputHousePrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_marginTop="2dp"
+            android:text="@string/zero"
+            android:gravity="center"
+            android:selectAllOnFocus="true"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="193dp"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+        <TextView
+            android:id="@+id/text_Expences"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:text="@string/expences"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/inputExpences"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_marginTop="2dp"
+            android:text="@string/zero"
+            android:gravity="center"
+            android:selectAllOnFocus="true"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="193dp"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+        <TextView
+            android:id="@+id/text_house_rent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:text="@string/house_rent"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/inputHouseRent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_marginTop="2dp"
+            android:text="@string/zero"
+            android:gravity="center"
+            android:selectAllOnFocus="true"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="193dp"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+        <TextView
+            android:id="@+id/text_mortage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:text="@string/mortage"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/inputMortage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:ems="10"
+            android:inputType="number"
+            android:layout_marginTop="2dp"
+            android:text="@string/zero"
+            android:gravity="center"
+            android:selectAllOnFocus="true"
+            tools:layout_editor_absoluteX="37dp"
+            tools:layout_editor_absoluteY="193dp"
+            android:importantForAutofill="no"
+            tools:ignore="LabelFor"/>
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <CheckBox
+                android:id="@+id/check_management_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/management_percent" />
+
+            <EditText
+                android:id="@+id/management_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:text="@string/zero"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor"/>
+            <CheckBox
+                android:id="@+id/check_reinovation_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/reinovation_percent" />
+
+            <EditText
+                android:id="@+id/reinovation_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:text="@string/zero"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor"/>
+            <CheckBox
+                android:id="@+id/check_maintenance_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/maintenance_percent" />
+
+            <EditText
+                android:id="@+id/maintenance_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:text="@string/zero"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor" />
+            <CheckBox
+                android:id="@+id/check_house_tax_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/house_tax_percent" />
+
+            <EditText
+                android:id="@+id/house_tax_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:text="@string/zero"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor"/>
+            <CheckBox
+                android:id="@+id/check_investment_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/investment_percent" />
+
+            <EditText
+                android:id="@+id/investment_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:gravity="center"
+                android:selectAllOnFocus="true"
+                android:text="@string/zero"
+                android:importantForAutofill="no"
+                tools:ignore="LabelFor"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+        <Button
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:id="@+id/buttonCalculateIt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calculate_it"
+            android:layout_gravity="center_horizontal"
+            tools:layout_editor_absoluteX="153dp"
+            tools:layout_editor_absoluteY="515dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/text_anualProfit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:text="@string/anual_profit"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_anual_profit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_tROI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:text="@string/roi"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_ROI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="8dp"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
